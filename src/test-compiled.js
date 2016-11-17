@@ -3,11 +3,9 @@
  */
 'use strict';
 
-var a = 43;
-if (a < 40) {
-    var _a = "32";
-} else {
-    var b = 45;
+function test() {
+  var a = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 32;
+  var b = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 50;
 }
 
 //# sourceMappingURL=test-compiled.js.map
