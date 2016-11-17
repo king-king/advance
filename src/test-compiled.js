@@ -3,10 +3,11 @@
  */
 'use strict';
 
-var arr = [1, 2, 3, 4, 5];
-var iter = arr[Symbol.iterator]();
-iter.next();
-iter.next();
-iter.next();
+var a = 43;
+if (a < 40) {
+    var _a = "32";
+} else {
+    var b = 45;
+}
 
 //# sourceMappingURL=test-compiled.js.map
