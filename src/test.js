@@ -3,6 +3,6 @@
  */
 'use strict';
 function test(a = 32, b = 50) {
-    console.log(a,b)
+    console.log(a, b)
 }
 
